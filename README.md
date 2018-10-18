@@ -1,7 +1,4 @@
-# 创意库_视频制作工具
-
-创意库_视频制作工具 前端交互设计稿，请参考：[https://ycusq0.axshare.com/#g=1&p=%E7%B4%A0%E6%9D%90%E5%BA%93%E8%B0%83%E7%94%A8%E9%A1%B5%E9%9D%A2]
-
+# 视频制作工具
 
 ## 入门
 
@@ -97,18 +94,7 @@ parcel build test.html
 
 ## 开发者
 
-* 黄海金 - <huanghaijin@jd.com>
+* josea- <hhjzgm@163.com>
 
 
-## 参考
-
-参考今日头条
-
-[https://ad.toutiao.com]
-账号：zhangshiyuan1@jd.com
-密码：单独咚咚- huanghaijin3
-
-## 致谢
-
-* 感谢
 
