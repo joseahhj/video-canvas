@@ -1,0 +1,13 @@
+@charset "utf-8";
+body,div,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,form,fieldset,input,textarea,select,p,blockquote,pre,th,td,table,legend,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video,a,span{ margin: 0; padding: 0; outline: none}
+html,body{ height: 100%}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary { display:block;}
+li{list-style:none;}
+table {border-collapse:collapse;border-spacing:0;}
+img{border:none;outline:none;vertical-align: top}
+img, input, select, textarea, button,label{vertical-align:middle; border: none;}
+input,select,textarea{box-sizing:border-box;}
+textarea { resize:vertical; overflow-y:auto }
+em,i{font-style:normal;}
+a,a:hover{text-decoration:none;}
+:focus{outline:0;}

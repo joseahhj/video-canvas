@@ -1,0 +1,113 @@
+parser: babel-eslint
+env:
+  es6: true
+  browser: true
+  commonjs: true
+extends: 'eslint:recommended'
+rules:
+  strict:
+    - 0
+  indent:
+    - 2
+    - 4
+    -
+      SwitchCase: 1
+  radix:
+    - 2 
+    - always
+  comma-spacing:
+    - 2
+    - 
+      before: false
+      after: true
+  no-multiple-empty-lines: 
+    - 2
+  object-curly-spacing:
+    - 2
+  space-before-function-paren:
+    - 2
+    -
+      anonymous: always
+      named: never
+      asyncArrow: always
+  space-in-parens:
+    - 2
+  space-infix-ops:
+    - 2
+    -
+      int32Hint: true
+  key-spacing:
+    - 2
+  keyword-spacing:
+    - 2
+    -
+      before: true
+      after: true
+  semi-spacing:
+    - 2
+  quotes:
+    - 2
+    - single
+  linebreak-style:
+    - 2
+    - unix
+  no-multi-spaces:
+    - 2
+  no-self-compare:
+    - 2
+  max-depth:
+    - 2
+    - 4
+  max-nested-callbacks:
+    - 2
+    - 4
+  max-params:
+    - 2
+    - 4
+  max-statements:
+    - 2
+    - 50
+  max-statements-per-line:
+    - 2
+  max-len:
+    - 2
+    - 120
+  multiline-ternary:
+    - 0
+  callback-return:
+    - 2
+  handle-callback-err:
+    - 2
+  array-bracket-spacing:
+    - 2
+  no-const-assign:
+    - 2
+  no-inner-declarations:
+    - 2
+  no-var:
+    - 2
+  no-console:
+    - 1
+  no-lonely-if:
+    - 2
+  no-mixed-spaces-and-tabs:
+    - 2
+  require-jsdoc:
+    - 2
+    - require:
+        FunctionDeclaration: true
+        MethodDefinition: false
+        ClassDeclaration: false
+  valid-jsdoc:
+    - 2
+  no-undef:
+    - 2
+  # TODO: 统一前后端风格
+  # comma-dangle:
+  #   - 2
+  #   - never
+ecmaFeatures:
+  jsx: true
+plugins:
+  - html
+

@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.cache
+dist
+dist.zip
+node_modules
+release
+npm-shrinkwrap.json
+.zip
+images/
